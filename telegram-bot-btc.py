@@ -11,8 +11,8 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 
 
 def valor(update, context):
-	btc = requests.get('https://api.coindesk.com/v1/bpi/currentprice.json')
-	precio = btc.json()['bpi']['USD']['rate']
+    btc = requests.get('https://api.coindesk.com/v1/bpi/currentprice.json')
+    precio = btc.json()['bpi']['USD']['rate']
     update.message.reply_text(precio)
 
 
