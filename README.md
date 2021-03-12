@@ -11,5 +11,5 @@ user@ubuntu-notificaciones:~/notificaciones# python3 telegram-bot-btc.py
 Es un script que se agrega en el crontab y cada 5 minutos chequea el valor del BTC si baja del valor esperado nos avisa
 
 >Uso:
-crontab -e
+crontab -e<br/>
 */5 * * * * /notificaciones/telegram-bajo-btc.sh
