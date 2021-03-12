@@ -11,4 +11,5 @@ telegram-bajo-btc.sh:
 Es un script que se agrega en el crontab y cada 5 minutos chequea el valor del BTC si baja del valor esperado nos avisa
 
 Uso:
-user@ubuntu-notificaciones:~/notificaciones# ./telegram-bajo-btc.sh
+*/5 * * * * /notificaciones/telegram-bajo-btc.sh
+
